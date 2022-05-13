@@ -1,0 +1,126 @@
+.site-footer {
+  padding-left: 59px;
+  padding-bottom: 111px;
+  padding-top: 101px;
+  background-image: url(../../img/footer.png);
+  height: 460px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+// .site-footer::before {
+//     position: absolute;
+//     left: calc(50% - 80px);
+//     top: -80px;
+//     display: block;
+//     width: 160px;
+//     height: 160px;
+//     border-radius: 50%;
+//     background-image: url(../../img/circle.png);
+//     background-position: center;
+//     content: "";
+// }
+
+.site-footer__inner-next {
+  display: flex;
+}
+
+.site-footer__img {
+  margin-right: 149px;
+  margin-left: 59px;
+}
+
+.site-footer__list {
+  flex-direction: column;
+}
+
+.site-footer__shrift {
+  margin-bottom: 22px;
+  margin-right: 84px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+
+.site-footer-item {
+  margin-bottom: 11px;
+  text-decoration: none;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  color: #FFFFFF;
+}
+.site-footer__list-continue {
+  list-style-type: none;
+}
+
+.site-footer__list-next {
+  display: flex;
+  margin-left: 320px;
+  list-style-type: none;
+}
+
+.site-footer__item-next {
+  margin-right: 31px;
+}
+.site-footer__item-next:last-child {
+  margin-right: 0;
+}
+
+.site-footer__item-next-link {
+  text-decoration: none;
+}
+
+.site-footer__item-next-img {
+  margin-bottom: 14px;
+}
+
+.site-footer__address {
+  margin-bottom: 11px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.site-footer__address-next {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.site-footer__span {
+  margin-top: 108px;
+  margin-left: 440px;
+  width: 429px;
+  padding: 9px 45px 8px 19px;
+  display: flex;
+  background-color: #FFFFFF;
+}
+
+.site-footer__span-p {
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.site-footer__span-img {
+  margin-top: 10px;
+  margin-left: 5px;
+}
